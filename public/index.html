@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Dashboard</title>
+  <!-- Add any CSS stylesheets here -->
+</head>
+<body>
+  <h1>Healthcare Dashboard</h1>
+
+  <!-- Add New Patient Form -->
+  <div id="add-patient-form">
+    <h2>Add New Patient</h2>
+    <form id="new-patient-form">
+      <label for="active">Active:</label>
+      <input type="text" id="active" name="active" required><br>
+
+      <label for="useType">Use Type:</label>
+      <input type="text" id="useType" name="useType" required><br>
+
+      <label for="family">Family Name:</label>
+      <input type="text" id="family" name="family" required><br>
+
+      <label for="given">Given Name:</label>
+      <input type="text" id="given" name="given" required><br>
+
+      <!-- Add more input fields for other patient attributes based on your model -->
+
+      <button type="submit">Add Patient</button>
+    </form>
+  </div>
+
+  <!-- Display list of patients -->
+  <div id="patient-list">
+    <!-- Patients will be listed here -->
+  </div>
+
+  <!-- Include any JavaScript files here -->
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/* Add your CSS styles here to design the dashboard layout */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #add-patient-form,
+  #update-patient-form,
+  #delete-patient-confirmation {
+    display: none;
+  }
